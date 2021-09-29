@@ -50,7 +50,7 @@ export default function App() {
       <h1>Inside outt</h1>
       <input
         value={emoji}
-        placeholder="type in vegetable emojis"
+        placeholder="type in fruit emojis"
         onChange={emojiEventHandler}
       ></input>
       <h2>{emoji}</h2>
